@@ -1,0 +1,124 @@
+.main-label{
+    padding: 18px 24px;
+    border-radius: 4px;
+    border: 2px solid var(--Neutral-03, #E1E2E2);
+    color: var(--Neutral-07, #202025);
+
+/* Base/L */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: -0.16px;
+}
+
+.main-checkboxes {
+    padding: 18px 24px;
+}
+
+.main-texts__title {
+    padding-bottom: 32px;
+    color: var(--Neutral-07, #202025);
+
+/* Body 1/L */
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+letter-spacing: -0.48px;
+}
+
+
+.main-list {
+    list-style: none;
+}
+
+.main-links {
+    padding: 12px 82px;
+    border: 2px solid var(--Neutral-03, #E1E2E2);
+    color: var(--Neutral-07, #202025);
+
+/* Title/L */
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 200% */
+letter-spacing: -0.18px;
+    text-decoration: none;
+}
+.main-links-1 {
+    padding: 12px 82px;
+    border: 2px solid var(--Neutral-03, #E1E2E2);
+    color: var(--Neutral-04, #A6AEAD);
+
+/* Title/L */
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 200% */
+letter-spacing: -0.18px;
+    text-decoration: none;
+}
+.main-links-2 {
+    padding: 18px 76px;
+    border-radius: 4px;
+background: var(--Neutral-07, #202025);
+    color: var(--Neutral-01, #F7FBFA);
+
+/* BUTTON/L */
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 800;
+line-height: 24px; /* 200% */
+letter-spacing: 2.04px;
+text-transform: uppercase;
+    text-decoration: none;
+}
+
+.form-and__list {
+    display: flex;
+    align-items: center;
+    gap: 170px;
+}
+
+.titles {
+    display: flex;
+    align-items: center;
+    gap: 601px;
+}
+
+
+@media only screen and (max-width:1024px) {
+    .titles {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .form-and__list {
+        flex-direction: column;
+    }
+
+    .main-texts__title-1 {
+        display: none;
+    }
+
+    .form-and__list {
+        gap: 100px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .form-and__list {
+        flex-direction: column;
+    }
+
+    .main-list {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+}

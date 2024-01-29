@@ -1,0 +1,158 @@
+.crypter-started {
+    display: flex;
+    align-items: center;
+}
+
+.crypter-link__img {
+margin-right: 55px;
+}
+
+.site_header_top-form {
+    margin-right: 188px;
+}
+
+.site_header_top_search {
+    padding: 15px 40px 13px 40px;
+    border: none;
+}
+
+.links {
+    color: var(--Neutral-07, #202025);
+
+/* BUTTON/L */
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 800;
+line-height: 24px; /* 200% */
+letter-spacing: 2.04px;
+text-transform: uppercase;
+   margin-right: 60px; 
+   text-decoration: none;
+}
+
+.crypter-header__button-link {
+    color: var(--Neutral-07, #202025);
+
+/* BUTTON/L */
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 800;
+line-height: 24px; /* 200% */
+letter-spacing: 2.04px;
+text-transform: uppercase;
+display: flex;
+padding: 12px 32px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 4px;
+border: 2px solid var(--Neutral-06, #555);
+text-decoration: none;
+margin-right: 60px;
+}
+
+.crypter-started {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.link-responsive {
+    display: none;
+}
+
+.responsive-link-button {
+
+display: none;
+}
+
+.responsive-images {
+display: none;
+}
+
+
+@media only screen and (max-width:1024px) {
+    
+    .links {
+        display: none;
+    }
+    .links-1 {
+        display: none;
+    }
+    .crypter-header__button-link {
+        display: none;
+    }
+
+    .responsive-images {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    .link-responsive {
+        display: inline-block;
+    }
+    .responsive-link-button {
+
+    display: inline-block;
+    } 
+
+    .link-responsive {
+        color: var(--Neutral-07, #202025);
+
+/* BUTTON/L */
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 800;
+line-height: 24px; /* 200% */
+letter-spacing: 2.04px;
+text-transform: uppercase;
+display: flex;
+padding: 12px 32px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 4px;
+border: 2px solid var(--Neutral-07, #202025);
+text-decoration: none;  
+margin-right: 48px;
+    }
+
+    .site_header_top-form {
+        margin-right: 65px;
+        
+    }
+
+
+
+
+}
+
+.responsiv-phone {
+    display: none;
+}
+
+@media only screen and (max-width:375px) {
+    .crypter-link {
+        display: none;
+    }
+    .crypter-link__img {
+
+        display: none;
+    }
+    .site_header_top-form {
+        display: none;
+    }
+    .site_header_top_search {
+        display: none;
+    }
+
+    .link-responsive {
+        display: none;
+    }
+    .responsiv-phone {
+        display: inline-block;
+        margin-right: 111px;
+    }
+}
